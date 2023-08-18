@@ -1,0 +1,17 @@
+set_property -dict {PACKAGE_PIN U18 IOSTANDARD LVCMOS33} [get_ports cam_pclk]
+#这条语句的作用是什么？
+##完成了相关引脚分配，通过set_property分配引脚位置和电平标准，通过get_ports指明需要约束的信号
+set_property -dict {PACKAGE_PIN N17  IOSTANDARD LVCMOS33} [get_ports cam_rst_n]
+set_property -dict {PACKAGE_PIN AB18 IOSTANDARD LVCMOS33} [get_ports cam_pwdn]
+set_property -dict {PACKAGE_PIN P17  IOSTANDARD LVCMOS33} [get_ports cam_data[0]]
+set_property -dict {PACKAGE_PIN P15  IOSTANDARD LVCMOS33} [get_ports cam_data[1]]
+set_property -dict {PACKAGE_PIN R16  IOSTANDARD LVCMOS33} [get_ports cam_data[2]]
+set_property -dict {PACKAGE_PIN R17  IOSTANDARD LVCMOS33} [get_ports cam_data[3]]
+set_property -dict {PACKAGE_PIN P16  IOSTANDARD LVCMOS33} [get_ports cam_data[4]]
+set_property -dict {PACKAGE_PIN V17  IOSTANDARD LVCMOS33} [get_ports cam_data[5]]
+set_property -dict {PACKAGE_PIN W17  IOSTANDARD LVCMOS33} [get_ports cam_data[6]]
+set_property -dict {PACKAGE_PIN U17  IOSTANDARD LVCMOS33} [get_ports cam_data[7]]
+set_property -dict {PACKAGE_PIN P14  IOSTANDARD LVCMOS33} [get_ports cam_vsync]
+set_property -dict {PACKAGE_PIN N14  IOSTANDARD LVCMOS33} [get_ports cam_href]
+set_property -dict {PACKAGE_PIN N13  IOSTANDARD LVCMOS33} [get_ports cam_scl]
+set_property -dict {PACKAGE_PIN R14  IOSTANDARD LVCMOS33} [get_ports cam_sda]
