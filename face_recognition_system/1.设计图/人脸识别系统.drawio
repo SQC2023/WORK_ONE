@@ -228,7 +228,7 @@
                 <mxCell id="rX7PMhzwUXEM9qm4jWY1-1" value="OV5640" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="PQQZRL-Dx55m8A6esvLJ-10" vertex="1">
                     <mxGeometry y="160" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="rX7PMhzwUXEM9qm4jWY1-2" value="OV5640驱动" style="rounded=0;whiteSpace=wrap;html=1;" parent="PQQZRL-Dx55m8A6esvLJ-10" vertex="1">
+                <mxCell id="rX7PMhzwUXEM9qm4jWY1-2" value="OV5640驱动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="PQQZRL-Dx55m8A6esvLJ-10" vertex="1">
                     <mxGeometry x="200" y="160" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="rX7PMhzwUXEM9qm4jWY1-4" value="" style="endArrow=classic;startArrow=classic;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="PQQZRL-Dx55m8A6esvLJ-10" source="rX7PMhzwUXEM9qm4jWY1-1" target="rX7PMhzwUXEM9qm4jWY1-2" edge="1">
@@ -395,7 +395,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="dSG_O6Fs3y2tUmx-Ykd9" name="OV5640驱动">
-        <mxGraphModel dx="625" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="893" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
